@@ -21,8 +21,8 @@ class checker ():
     def __init__(self, uid, passwd, stdName, mobile, form_dir="./form_dir", code_dir="./code_dir", os_type="mac",
                  decoder="baidu",
                  app_id="", api_key="", secret_key="", maxretry=10):
-        self.os_type = os_type  # mac or linux, not support windows
-        self.decoder = decoder  # "baidu" or "pytesseract"
+        self.os_type = "mac"  # mac or linux, not support windows
+        self.decoder = "baidu"  # "baidu" or "pytesseract"
         self.headless = True
 
         """ 你的 APPID AK SK """
