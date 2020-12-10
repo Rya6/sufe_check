@@ -26,10 +26,10 @@ class checker ():
         self.headless = True
 
         """ 你的 APPID AK SK """
-        self.APP_ID = app_id
-        self.API_KEY = api_key
-        self.SECRET_KEY = secret_key
-
+        self.APP_ID = "23124258"
+        self.API_KEY = "l3FyLzvH938Bt2VzoPZb0ugf"
+        self.SECRET_KEY = "AyRexOfBLWwnq1YB8KoTYbNBpqVONzNE"
+        
         self.header = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
             'Connection': 'keep-alive',
@@ -44,11 +44,11 @@ class checker ():
         self.session = requests.session ()
         self.form_dir = form_dir
         self.code_dir = code_dir
-        self.uid = uid
-        self.stdName = stdName
-        self.mobile = mobile
-        self.passwd = passwd
-        self.maxretry = maxretry
+        self.uid = "2018110804"
+        self.stdName = "高宇翔"
+        self.mobile = "15540395251"
+        self.passwd = "gyx112233"
+        self.maxretry = 10
 
         if self.headless:
             from selenium.webdriver.chrome.options import Options  # no gui
