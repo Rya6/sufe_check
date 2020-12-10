@@ -31,7 +31,7 @@ class checker ():
         self.SECRET_KEY = "AyRexOfBLWwnq1YB8KoTYbNBpqVONzNE"
         
         self.header = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
             'Connection': 'keep-alive',
             'accept': '*/*'
         }
