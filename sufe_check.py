@@ -46,8 +46,8 @@ class checker ():
         self.code_dir = code_dir
         self.uid = "2018110804"
         self.stdName = "高宇翔"
-        self.mobile = "15540395251"
-        self.passwd = "gyx112233"
+        self.mobile = ""
+        self.passwd = ""
         self.maxretry = 10
 
         if self.headless:
