@@ -61,7 +61,7 @@ class checker ():
             self.chrome_options = None
 
         if self.os_type == "mac":
-            self.DRIVER_PATH = "./chromeDriver/chromedriver_mac"
+            self.DRIVER_PATH = "./chromeDriver/chromedriver_2"
         elif self.os_type == "linux":
             self.DRIVER_PATH = "./chromeDriver/chromedriver_linux"
         elif self.os_type == "windows":
