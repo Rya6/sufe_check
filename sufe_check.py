@@ -302,9 +302,9 @@ def init_parser():
 if __name__ == '__main__':
     args = init_parser()
 
-    uid = "2018110804"
-    passwd = "gyx112233"
-    stdName = "高宇翔"
+    uid = ""
+    passwd = ""
+    stdName = ""
     mobile = ""
     os_type = None
     decoder = "baidu"
